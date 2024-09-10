@@ -1,0 +1,246 @@
+.cart-information {
+    margin: 4% 0;
+}
+
+.cart-information .pro-detail {
+  
+}
+
+.cart-information .heading-holder h4 {
+    font-size: 20px;
+}
+
+.cart-information .heading-holder p {
+    font-size: 15px;
+    font-weight: 700;
+
+}
+
+.cart-information .product {
+    border-bottom: 1px solid #dddddd;
+}
+
+.cart-information .product-card .pro-img {
+    width: 100px;
+    height: 100px;
+}
+
+.cart-information .product-card .name-holder1 h6 {
+    font-size: 12px;
+    color: #000;
+}
+
+.cart-information .select-product-div .add-cart-box .add {
+  
+    border-left: 1px solid #ccc;
+    padding: 0px 9px;
+    font-size: 17px;
+    border-radius: 5px;
+}
+
+.cart-information .select-product-div .add-cart-box .add:hover {
+    color: #000;
+}
+
+.cart-information .select-product-div .add-cart-box {
+    border: 1px solid #707070;
+    border-radius: 5px;
+    width: fit-content;
+    margin-top: 10px;
+    background-color: #fff;
+
+}
+
+.cart-information .select-product-div .add-cart-btn {
+    font-size: 14px;
+    background-color: #000;
+    color: white;
+    margin-top: 7px;
+    padding: 7px 25px;
+}
+
+.cart-information .select-product-div .add-cart-box .minus {
+    
+    border-right: 1px solid #707070;
+    padding: 3px 10px;
+    font-size: 17px;
+    border-radius: 5px;
+}
+
+.cart-information .select-product-div .add-cart-box .minus:hover {
+    color: #000;
+}
+
+.cart-information .select-product-div .add-cart-box .quantity {
+  
+    padding: 3px 15px;
+    font-size: 13px;
+    color: #000;
+}
+
+.cart-information .select-product-div .pro-name {
+    font-size: 12px;
+    color: #000;
+
+}
+
+.cart-information .price-no {
+    font-size: 12px;
+    color: #000;
+
+}
+
+/*********button**************/
+.cart-information .border-line {
+    border-top: 1px solid #dddddd;
+}
+
+.cart-information .form-label {
+    font-size: 15px;
+}
+
+.cart-information .form-control {
+    font-size: 15px;
+}
+
+.cart-information .tittle-2 {
+    font-size: 15px;
+}
+
+.cart-information .outer .button {
+    border: 1px solid black;
+    border-radius: 3px;
+    width: 126px;
+    height: 40px;
+    display: block;
+    background: linear-gradient(to right, white 50%, #5b5d52 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all .5s ease-out;
+    cursor: pointer;
+    margin-left: auto;
+
+}
+
+.cart-information .outer .button:hover {
+    background-position: left bottom;
+}
+
+.cart-information .outer .text {
+    text-align: center;
+    font-size: 13px;
+    line-height: 40px;
+    color: white;
+    transition: all .6s ease-out;
+    display: block;
+}
+
+.cart-information .outer .text:hover {
+    color: black;
+}
+
+.cart-information .shopping-box {
+    border: 1px solid #dddddd;
+    padding: 5%;
+    margin-top: 5%;
+}
+
+.cart-information .shopping-box h5 {
+    font-size: 15px;
+}
+
+.cart-information .shopping-box .form-select {
+    font-size: 12px;
+}
+
+.cart-information .navidium {
+    font-size: 14px;
+}
+
+.cart-information .navidium-img {
+    width: 70px;
+    height: 70px;
+}
+
+.cart-information .demage {
+    font-size: 12px;
+    text-align: start !important;
+}
+
+.cart-information .form-check-input:checked {
+    background-color: #008060;
+    border-color: #008060;
+}
+
+.cart-information .form-check-input:focus {
+    box-shadow: none;
+}
+
+.cart-information .image-holder {
+    position: relative;
+}
+
+.cart-information .img-fa-overlay {
+    position: absolute;
+    bottom: 13%;
+    right: 14%;
+    z-index: 0;
+
+}
+@media(max-width:999px) {
+    .cart-information .outer .button {
+      width: 100px;
+    }
+}
+@media(max-width:767px) {
+    .cart-information .outer .button {
+      margin: auto;
+    }
+}
+@media(min-width:567px) and (max-width:767px) {
+    .cart-information .img-fa-overlay {
+        position: absolute;
+        bottom: 13%;
+        left: 8%;
+        z-index: 0;
+
+    } 
+}
+@media(min-width:360px) and (max-width:567px) {
+    .cart-information .img-fa-overlay {
+        position: absolute;
+        bottom: 13%;
+        left: 8%;
+        z-index: 0;
+
+    } 
+}
+@media(min-width:0px) and (max-width:359px) {
+    .cart-information .product-card .pro-img {
+        width: 75px;
+        height: 75px;
+    }
+
+    .cart-information .product-card .name-holder1 h6 {
+        font-size: 9px;
+        color: #000;
+    }
+
+    .cart-information .img-fa-overlay {
+        position: absolute;
+        bottom: 13%;
+        left: 15%;
+        z-index: 0;
+
+    }
+}
+@media (min-width:280px) and (max-width:767px) {
+    .hippikart-01 {
+        text-align: center;
+        margin-top: 5%;
+    }
+    .hippikart_0{
+        text-align: center;
+    }
+
+}

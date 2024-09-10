@@ -1,0 +1,125 @@
+.usp-section{
+    background-color: #000 !important;
+    /* padding: 2% 4% 5% 4% !important; */
+}
+.usp-fafa{
+    color: #fff;
+}
+.usp-section .cont-div .title{
+    font-size: 35px;
+    color: #fff;
+    font-weight: 900;
+}
+.usp-section .cont-div .sub-cont{
+    font-size: 25px;
+    color: #fff;
+    font-weight: 600;
+}
+.usp-section .icon-div{
+    min-width: 100px;
+}
+.usp-section .icon-div .usp-fafa{
+    color: #0f5f47;
+    font-size: 60px;
+}
+.usp-section .bd-right{
+    border-right: 1px solid #fff;
+    padding: 65px;
+}
+
+
+
+@media (max-width:575px){
+    .usp-section .bd-right {
+        padding: 20px;
+    }
+    .usp-section .cont-div .title {
+        font-size: 20px;
+    }
+    .usp-section .cont-div .sub-cont {
+        font-size: 15px;
+    }
+    .usp-section .icon-div .usp-fafa {
+        font-size: 35px;
+    }
+    .usp-section .icon-div {
+        min-width: 50px;
+    }
+}
+
+
+@media (min-width:576px) and (max-width:767px){
+    .usp-section .bd-right {
+        padding: 20px;
+    }
+    .usp-section .cont-div .title {
+        font-size: 25px;
+    }
+    .usp-section .cont-div .sub-cont {
+        font-size: 18px;
+    }
+    .usp-section .icon-div .usp-fafa {
+        font-size: 40px;
+    }
+    .usp-section .icon-div {
+        min-width: 65px;
+    }
+}
+@media (min-width:768px) and (max-width:991px){
+    .usp-section .bd-right {
+        padding: 25px;
+    }
+    .usp-section .cont-div .title {
+        font-size: 25px;
+    }
+    .usp-section .cont-div .sub-cont {
+        font-size: 18px;
+    }
+    .usp-section .icon-div .usp-fafa {
+        font-size: 40px;
+    }
+    .usp-section .icon-div {
+        min-width: 65px;
+    }
+}
+
+@media (min-width:992px) and (max-width:1199px){
+    .usp-section .bd-right {
+        padding: 25px;
+    }
+    .usp-section .cont-div .title {
+        font-size: 25px;
+    }
+    .usp-section .cont-div .sub-cont {
+        font-size: 18px;
+    }
+    .usp-section .icon-div .usp-fafa {
+        font-size: 40px;
+    }
+    .usp-section .icon-div {
+        min-width: 65px;
+    }
+}
+@media (min-width:1200px) and (max-width:1399px){
+    .usp-section .bd-right {
+        padding: 35px;
+    }
+    .usp-section .cont-div .title {
+        font-size: 30px;
+    }
+    .usp-section .cont-div .sub-cont {
+        font-size: 20px;
+    }
+}
+
+@media (min-width:1400px) and (max-width:1799px){
+    .usp-section .bd-right {
+        padding: 35px;
+    }
+    .usp-section .cont-div .title {
+        font-size: 30px;
+    }
+    .usp-section .cont-div .sub-cont {
+        font-size: 20px;
+    }
+}

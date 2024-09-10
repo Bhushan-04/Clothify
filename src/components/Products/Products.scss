@@ -1,0 +1,129 @@
+@import "../../css-config/mixins.scss";
+
+.products-container {
+    margin: 50px 0;
+
+    @include md {
+        margin: 50px auto 20px auto;
+    }
+
+    .sec-heading {
+        margin-bottom: 10px;
+        font-size: 22px;
+        
+        text-align: center;
+        font-weight: 500 !important;
+        text-transform: UPPERCASE;
+        letter-spacing: 5px;
+
+        @include md {
+            margin-bottom: 10px;
+            font-size: 22px;
+           
+            text-align: center;
+            font-weight: 500 !important;
+            text-transform: UPPERCASE;
+            letter-spacing: 5px;
+        }
+
+        &:after {
+            content: "";
+            display: block;
+            margin-top: 0px;
+            width: 10%;
+            height: 3px;
+            text-align: center;
+            background-color: rgb(9 118 57 / 85%);
+            margin: auto;
+            @include md {
+                margin-top: 0;
+            }
+            @include md {
+                width: 12%;
+            }
+        }
+    }
+
+    .products {
+        display: flex;
+        flex-flow: wrap;
+        gap: 10px;
+
+        @include md {
+            gap: 20px;
+        }
+    }
+}
+
+.products {
+    text-align: center;
+    justify-content: center;
+
+    .SectionHeader {
+        .Container {
+            .Heading {
+                letter-spacing: .2em;
+                font-size: 16px;
+                font-weight: lighter;
+                color: #4a4b44;
+               
+                font-weight: 900;
+            }
+
+            .TabList {
+                padding-top: 20px;
+                padding-bottom: 20px;
+
+                .Heading {
+                    padding: 0;
+                    overflow: visible;
+                    background: none;
+                    border-radius: 0;
+                    border-bottom-color: #4a4b44;
+                    border-left: none;
+                    border-top: none;
+                    border-right: none;
+                    margin-inline: 20px;
+                    
+                    font-weight: 900;
+                    outline: 0;
+
+                    &:focus {
+                        outline: none;
+                        box-shadow: none;
+                        border-radius: none !important;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// .swiper {
+//     width: 100%;
+//     height: 100%;
+//   }
+
+//   .swiper-slide {
+//     text-align: center;
+//     font-size: 18px;
+//     background: #fff;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//   }
+
+//   .swiper-slide img {
+//     display: block;
+//     width: 100%;
+//     height: 100%;
+//     object-fit: cover;
+//   }
+
+
+@media (min-width:270px) and (max-width:575px){
+    .products .SectionHeader .Container .Heading {
+        letter-spacing: 0.1em;
+        font-size: 14px;
+    }
+}

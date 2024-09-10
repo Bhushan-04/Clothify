@@ -1,0 +1,100 @@
+@import "../../../css-config/mixins.scss";
+.product-card {
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 20px;
+    @include md {
+        width: 100%;
+    }
+    .thumbnail {
+        width: 100%;
+        height: 180px;
+        background-color: transparent;
+        margin-bottom: 10px;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        box-shadow: 2px 3px 4px #44444450;
+        transition: all ease 0.3s;
+        width: 100%;
+        @include md {
+            height: 400px;
+            width: 100%;
+        }
+        img {
+            transition: all ease 0.3s;
+            display: block;
+            height: 100%;
+            width: 100%;
+        }
+    }
+    .image4div {
+        position: relative;
+        .prod-details4 {
+            position: absolute;
+            bottom: 7%;
+            left: 20px;
+            text-align: start;
+        .name {
+            color: white;
+            left: 0;
+            font-weight: 600;
+        }
+        .desc {
+            color: white;
+            font-size: 14px;
+        }
+        img {
+            transition: 2s 2s;
+        }
+    }
+    .overlay {
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0.4) 100%);
+    }
+    }
+    .prod-details {
+        .name {
+            font-size: 14px;
+            font-weight: bold;
+            display: block;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            overflow: hidden;
+            @include md {
+                font-size: 16px;
+                margin-bottom: 10px;
+            }
+        }
+        .desc{
+            font-size: 14px;
+            color: #FFF;
+            display: inline-block;
+            // text-align: start;
+            font-weight: bold;
+        }
+        .price-class {
+            font-size: 14px;
+            @include md {
+                font-size: 14px;
+            }
+        }
+    }
+    &:hover {
+        .thumbnail {
+            opacity: 0.8;
+        }
+    }
+}
+.swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction{
+    bottom: 0 !important;
+}
+
+
+.product-card .not-offer-prise{
+    text-decoration: line-through;
+}

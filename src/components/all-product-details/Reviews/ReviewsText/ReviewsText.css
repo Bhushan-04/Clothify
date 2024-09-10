@@ -1,0 +1,220 @@
+.Reviews .star-img {
+    height: 15px;
+    width: 15px;
+}
+.Reviews .title-1 h2{
+    font-size: 15px;
+}
+.Reviews .class-border {
+    border-right: 1px solid #959595;
+}
+.Reviews p {
+    font-size: 12px;
+}
+
+.Reviews .user-name-symbol {
+    background-color: #959595;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    font-size: 25px;
+}
+
+.Reviews .share-button {
+    border-right: 1px solid #959595;
+    font-size: 13px;
+    border-radius: 0%;
+}
+.Reviews .comments-button{
+    font-size: 13px;
+    border-radius: 0%;
+}
+.Reviews .last-line {
+    border-bottom: 1px solid #e6dfdf;
+}
+
+.Reviews .nav-tabs .nav-link {
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: none;
+    color: #000;
+    font-size: 16px !important;
+
+}
+.Reviews  .select-option{
+  margin-left: auto;
+}
+.Reviews .form-select{
+    border: none;
+    border-radius: 0%;
+    font-size: 14px;
+}
+.Reviews .form-select:focus{
+    box-shadow: none;
+}
+ .Reviews .nav-tabs .nav-link.active {
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 4px solid #000;
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+}
+.Reviews  .button-holder{
+   text-align: end;
+}
+.Reviews .btn-review{
+    background-color: #6a6c77;
+    color: #FFF;
+    font-size: 16px;
+    border: none;
+    border-radius: 0%;
+    border-radius: 5px;
+}
+
+.reviews-main-div .revvv-title{
+    font-weight: 900;
+    font-size: 25px;
+}
+.reviews-main-div .sub-revvv-title{
+    font-size: 20px;
+    font-weight: 600;
+}
+.reviews-main-div .review-box{
+    margin-bottom: 30px;
+}
+
+.reviews-main-div .review-box .img-div .review-client-img{
+    width: 60px;
+    height: 60px;
+    border-radius: 100px;
+    background-position: center;
+}
+.reviews-main-div .review-div .rating-star .star{
+    color: rgb(255 226 0);
+    width: 13px;
+}
+.reviews-main-div .review-div{
+    padding-left: 15px;
+}
+.reviews-main-div .review-div .name-c{
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 0px;
+    margin-top: 7px;
+}
+.reviews-main-div .review-div .name-c span{
+    font-size: 12px;
+    font-weight: 400;
+}
+.reviews-main-div .review-div .revv-p{
+    font-weight: 500;
+    font-size: 14px;
+    margin-bottom: 0px;
+    margin-top: 7px;
+}
+
+.add-review-sec .sub-text{
+    font-size: 15px;
+    color: #000;
+    font-weight: 500;
+}
+.add-review-sec .your-rating-div .bd-right{
+    border-right: 1px solid #ccc;
+    padding: 0px 10px 0px 10px;
+}
+.add-review-sec .your-rating-div .bd-right .fa-solid{
+    font-size: 13px;
+}
+.add-review-sec .your-rating-div .bd-right .fa-solid:hover{
+    color: rgb(255 226 0);
+    font-size: 13px;
+}
+.add-review-sec .add-review-form{
+    margin-top: 25px;
+}
+.add-review-sec .add-review-form label{
+    font-size: 14px;
+}
+.add-review-sec .add-review-form .form-group{
+    margin-bottom: 20px;
+}
+.add-review-sec .add-review-form .submit-btn{
+    background: #f1f1f1;
+    color: #000;
+    margin-top: 20px;
+    border-radius: 2px;
+    border: 1px solid #ccc;
+    font-weight: 800;
+    font-size: 14px;
+}
+.add-review-sec .add-review-form .form-control:focus{
+    box-shadow: none;
+    border: 1px solid #ced4da;
+}
+
+
+.Reviews .btn-review:hover{
+    background-color: #6a6c77;
+    color: #FFF;
+}
+.Reviews .btn-review img{
+    margin-right: 5px;
+}
+.Reviews .collapse .card-body h2{
+    font-size: 15px;
+}
+.Reviews .collapse .card-body .button-post .btn-post{
+    background-color: #4f4f4f;
+    color: #FFF;
+    font-size: 14px;
+    border-radius: 0%;
+    width: 100px;
+}
+.Reviews .collapse .card-body {
+    border: none;
+}
+.Reviews .collapse .card-body .form-label{
+   font-size: 12px;
+
+}
+.Reviews .collapse .card-body .form-control{
+    border-radius: 0%;
+    font-size: 14px;
+}
+.Reviews .tab-content .helpful{
+    margin-left: auto;
+}
+.Reviews .tab-content  .date{
+    margin-left: auto;
+}
+.Reviews  .page-link {
+   border: none;
+   background-color: transparent;
+}
+.Reviews  .page-link:hover{
+    background-color: transparent;
+}
+.Reviews  .page-link:focus {
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
+}
+
+.Reviews .underline-class {
+    border-bottom: 1px solid #dfdfe2;
+}
+
+
+
+
+@media (max-width:575px){
+    .add-review-sec .your-rating-div .bd-right {
+        padding: 0px 3px 0px 3px;
+    }
+    .add-review-sec .your-rating-div .bd-right .fa-solid {
+        font-size: 11px;
+    }
+}

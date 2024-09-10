@@ -1,0 +1,242 @@
+@import "../../../css-config/mixins.scss";
+
+.hero-banner2 {
+    padding: 0;
+    background-image: linear-gradient(45deg, #0D4526, #0d851f);
+    height: auto;
+    // @include mxmd {
+    //     height: calc(100vh - 80px);
+    // }
+    // max-height: calc(100vh - 80px);
+}
+
+.hero-banner .card {
+    height: 100% !important;
+    border-radius: 0 !important;
+    border: none !important;
+    color: #ffffff;
+}
+
+// .banner2_view{
+//     height: 100%;
+// }
+.hero-banner {
+    padding: 40px 0;
+    position: relative;
+    background-image: linear-gradient(45deg, #0D4526, #0d851f);
+
+    @include md {
+        height: calc(100vh - 100px);
+    }
+
+    .content {
+        height: 100%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        flex-direction: column-reverse;
+        max-width: calc(100% - 20px);
+        margin: 0 auto;
+        position: relative;
+
+        @include md {
+            flex-direction: row;
+            max-width: 1600px;
+        }
+
+        .banner-img {
+            position: relative;
+            z-index: 9;
+            width: 200px;
+            margin-bottom: 20px;
+
+            @include md {
+                width: 35%;
+                margin-right: 60px;
+                margin-top: 50px;
+                margin-bottom: 0;
+            }
+
+            @include xxl {
+                width: 600px;
+                margin-right: 0;
+                margin-top: 0;
+            }
+        }
+
+        .text-content {
+            color: white;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            @include md {
+                position: absolute;
+                left: 50px;
+                top: 50%;
+                transform: translateY(-50%);
+            }
+
+            @include xxl {
+                left: 0;
+            }
+
+            h1 {
+                font-size: 80px;
+                font-weight: 700;
+                line-height: 1;
+                color: white;
+                margin-bottom: 20px;
+
+                @include md {
+                    font-size: 180px;
+                }
+            }
+
+            p {
+                max-width: 300px;
+                font-size: 14px;
+                line-height: 20px;
+                margin-bottom: 20px;
+
+                @include md {
+                    max-width: 500px;
+                    font-size: 18px;
+                    line-height: 24px;
+                    margin-bottom: 40px;
+                }
+            }
+
+            .ctas {
+                display: flex;
+                justify-content: center;
+                gap: 20px;
+
+                .banner-cta {
+                    text-transform: uppercase;
+                    font-size: 13px;
+                    font-weight: 500;
+                    width: fit-content;
+                    border: 2px solid white;
+                    padding: 10px 20px;
+                    transition: all ease 0.3s;
+                    cursor: pointer;
+
+                    &.v2 {
+                        background-color: white;
+                        color: black;
+                    }
+
+                    &:hover {
+                        opacity: 0.6;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    color: #ffffff !important;
+}
+
+.banner-title,
+.banner-desc {
+    font-size: 16px;
+}
+
+.banner-head {
+    font-size: 4rem;
+    font-weight: 800;
+    letter-spacing: 1.5px;
+}
+
+.banner-btn {
+    text-transform: uppercase;
+    font-weight: bold !important;
+    letter-spacing: 2px;
+    color: #60aaf9 !important;
+    border-radius: 0 !important;
+}
+
+.bann-hide-mob {
+    display: block;
+}
+
+.bann-show-mob {
+    display: none !important;
+}
+
+
+
+@media (max-width:768px) {
+    .banner-head {
+        font-size: 20px;
+        font-weight: 800;
+        letter-spacing: 0px;
+    }
+
+    .banner-title,
+    .banner-desc {
+        font-size: 13px;
+    }
+
+    .bann-hide-mob {
+        display: none;
+    }
+
+    .bann-show-mob {
+        display: block !important;
+    }
+}
+
+@media  (min-width:250px) and (max-width:575px) {
+    .hero-banner .content .text-content h1 {
+        font-size: 35px;
+    }
+    .hero-banner .content .text-content p {
+        font-size: 12px;
+        margin-bottom: 20px;
+    }
+    .hero-banner .content .banner-img {
+        width: 70%;
+}
+}
+
+
+
+@media  (min-width:576px) and (max-width:768px) {
+    .hero-banner .content .text-content h1 {
+        font-size: 50px;
+    }
+    .hero-banner .content .text-content p {
+        font-size: 13px;
+        margin-bottom: 20px;
+    }
+}
+
+
+
+@media  (min-width:769px) and (max-width:992px) {
+    .hero-banner .content .text-content h1 {
+        font-size: 70px;
+}
+.hero-banner .content .text-content p {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+}
+
+@media  (min-width:993px) and (max-width:1200px) {
+    .hero-banner .content .text-content h1 {
+        font-size: 100px;
+}
+}
+
+@media  (min-width:1201px) and (max-width:1400px) {
+    .hero-banner .content .text-content h1 {
+        font-size: 120px;
+}
+}

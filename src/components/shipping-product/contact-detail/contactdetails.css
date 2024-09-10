@@ -1,0 +1,104 @@
+.cart-section .box-contact {
+    border: 1px solid #dddd;
+    padding: 10px;
+}
+
+.cart-section .box-contact h5 {
+    font-size: 14px;
+}
+
+.cart-section .box-contact h6 {
+    font-size: 14px;
+    text-decoration: underline;
+}
+
+.cart-section .border-contact {
+    border: 1px solid #dddd;
+}
+
+.cart-section .form-start h4 {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.cart-section .form-start .form-check-input:checked {
+    background-color: #000;
+    border-color: #000;
+    cursor: pointer;
+}
+.cart-section .form-start .form-check-input:focus{
+    box-shadow: none;
+    cursor: pointer;
+}
+.cart-section .form-start .free-rs{
+    margin-left: auto;
+}
+.cart-section .form-start .free-rs p{
+    font-size: 12px;
+    color: #000;
+}
+.cart-section .form-start .border-box{
+    border-radius: 10px;
+    /* border: 1px solid #dddd; */
+    box-shadow: 0 0 4px rgba(40,44,63,.2);
+}
+.cart-section .form-start .btn-address {
+    border: 1px solid #dddd;
+    font-size: 12px;
+    background-color: transparent;
+    color: #000;
+    font-weight: 600;
+}
+.cart-section .btn-home{
+    font-size: 12px;
+    border-radius: 15px;
+    border:1px solid #dddd ;
+}
+.cart-section .form-start .button-holder{
+    margin-left: auto;
+}
+.cart-section .form-start .edit-remove .btn-remove{
+    border:1px solid #000 ;
+    font-size: 12px;
+   
+    color: #000;
+}
+.cart-section .btn-cont{
+    background-color: green;
+    color: #FFF;
+    font-size: 13px;
+    width: 100%;
+}
+/********address modal start********/
+.cart-section .address .modal  .modal-title{
+    font-size: 12px;
+}
+.cart-section .address .modal .modal-body .col-form-label{
+    font-size: 12px;
+    font-weight: 600;
+}
+.cart-section .address .modal .modal-body .form-control {
+    font-size: 10px;
+    height: 40px;
+}
+.cart-section .address .modal .modal-body .save-add h6{
+    font-size: 12px;
+    font-weight: 600;
+}
+.cart-section .address .modal .modal-body .btn-home{
+    font-size: 12px;
+    border-radius: 15px;
+    border:1px solid #dddd ;
+}
+.cart-section .address .modal .modal-body .form-check-label{
+    font-size: 12px;
+}
+.cart-section .address .modal .modal-footer{
+    box-shadow: #FFF;
+}
+.cart-section .address .modal .modal-footer .btn-priadd{
+   width: 100%;
+   font-size: 15px;
+   color: #FFF;
+   background-color: green;
+}

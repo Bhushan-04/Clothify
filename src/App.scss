@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100&display=swap');
+
+body{
+    font-family: 'Catamaran', sans-serif !important;
+}
+
+@font-face {
+    font-family: 'Catamaran', sans-serif !important;
+    src: url('../public/Inter/Inter-VariableFont_slnt\,wght.ttf');
+}
+
+.dropdown-item {
+    font-weight: 700 !important;
+    color: #444 !important;
+    border-bottom: 1px solid rgba(204, 204, 204, 0.1882352941) !important;
+    margin-bottom: 10px;
+    letter-spacing: 3px;
+    font-size: 14px;
+    transition: 0.8s ease-in-out;
+}

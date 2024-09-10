@@ -1,0 +1,90 @@
+.wishlist-section img.product-img {
+  width: 67px;
+  height: 66px;
+}
+.wishlist-section .align-ddadad{
+  justify-content: space-around;
+}
+.wishlist-section button.btn.black {
+  background-color: black;
+  color: white;
+  font-size: 13px;
+}
+.wish {
+  border-bottom: 1px solid rgb(168, 161, 161);
+  padding: 24px;
+}
+section.wishlist-section {
+  padding: 5% 0% 11% 0%;
+}
+.wishlist-section  .whislist {
+  text-align: center;
+  font-size: 22px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+.wishlist-section .add-cart .cart-btn{
+  box-shadow: none !important;
+  border: none !important;
+}
+
+
+.wishlist-add-popup .modal{
+
+}
+
+.wishlist-add-popup .modal .nav-pills .nav-link{
+  color: #000;
+  border: 1px solid #000;
+  margin: 0px 5px;
+}
+
+.wishlist-add-popup .modal .nav-pills .nav-link.active{
+  color: #fff !important;
+  background-color: black !important;
+  font-weight: bold;
+}
+
+
+
+
+@media (min-width: 280px) and (max-width: 320px) {
+  .wishlist-section img.product-img {
+    width: 57px;
+    height: 61px;
+  }
+
+  p.paragraph {
+    font-size: 12px;
+  }
+}
+@media (min-width: 321px) and (max-width: 485px) {
+  p.paragraph {
+    font-size: 13px;
+  }
+  .wishlist-section button.btn.black {
+
+    font-size: 13px;
+  }
+}
+@media (min-width: 486px) and (max-width: 576px) {
+  p.paragraph {
+    font-size: 14px;
+  }
+
+}
+@media (min-width: 577px) and (max-width: 768px) {
+  p.paragraph {
+    font-size: 14px;
+  }
+
+}
+@media (min-width: 769px) and (max-width: 991px) {
+  p.paragraph {
+    font-size: 15px;
+  }
+
+}
+@media (min-width:1024px) and (max-width: 1199px) {
+
+}

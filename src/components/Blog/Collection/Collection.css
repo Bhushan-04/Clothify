@@ -1,0 +1,33 @@
+/* View Button  */
+.grid .view-button {
+    border: 1px solid #000 ;
+    border-radius: 3px;
+    width: fit-content;
+    height: fit-content;
+    display: block;
+    color: #FFF;
+    background: linear-gradient(to right, white 50%, rgb(122, 121, 121) 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all .5s ease-out;
+    margin: auto;
+    padding: 8px 20px;
+}
+
+.grid .view-button:hover {
+    background-position: left bottom;
+}
+
+.grid .text-view {
+    text-align: center;
+    font-size: 14px;
+    line-height: 30px;
+    color: black;
+    transition: all .6s ease-out;
+    display: block;
+}
+
+.grid .text-view:hover {
+    color: #000;
+}
+

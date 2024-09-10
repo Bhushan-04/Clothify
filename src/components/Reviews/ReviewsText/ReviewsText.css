@@ -1,0 +1,40 @@
+.Reviews .star-img {
+    height: 15px;
+    width: 15px;
+}
+
+.Reviews p {
+    font-size: 12px;
+}
+
+.Reviews .user-name-symbol {
+    background-color: #959595;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    font-size: 25px;
+}
+
+.Reviews .share-button {
+    border-right: 1px solid #959595;
+    font-size: 13px;
+}
+
+.Reviews .last-line {
+    border-bottom: 1px solid #e6dfdf;
+}
+
+.Reviews .nav-tabs .nav-link {
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: none;
+    color: #000;
+}
+
+ .Reviews .nav-tabs .nav-link.active {
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 4px solid #000;
+}

@@ -1,0 +1,54 @@
+.AboutUs img.pic {
+    height: auto;
+    width: 100%;
+}
+
+.AboutUs .paragraph1 {
+    font-family: inherit;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: left;
+}
+
+.AboutUs .paragraph1 b {
+    font-weight: 600;
+    color: black;
+}
+
+.AboutUs h1 {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.AboutUs .heading {
+    font-weight: 200;
+    font-size: 34px;
+}
+
+@media(min-width:0px) and (max-width:320px) {
+    .AboutUs .heading {
+        font-size: 26px;
+    }
+    .AboutUs .heading {
+        font-size: 20px;
+    }
+}
+
+@media(min-width:321px) and (max-width:485px) {
+    .AboutUs .heading {
+        font-size: 26px;
+    }
+    .AboutUs .heading {
+        font-size: 20px;
+}
+}
+
+@media(min-width:486px) and (max-width:576px) {
+    .AboutUs .heading {
+        font-size: 26px;
+    }
+    .AboutUs .heading {
+        font-size: 20px;
+}
+}

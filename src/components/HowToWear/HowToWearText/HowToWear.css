@@ -1,0 +1,99 @@
+.Wear-text h5 {
+    font-size: 16px;
+}
+
+.Wear-text p {
+    font-size: 13px;
+}
+
+.Wear-text ul li {
+    font-size: 13px;
+    list-style-type: circle;
+}
+
+.Wear-text ol li {
+    font-size: 13px;
+}
+
+
+/* user section */
+.user-section {
+    background-color: #5b5d52;
+    height: 600px;
+    width: 100%;
+
+}
+
+.user-section h5 {
+    color: #FFF;
+    font-size: 20px;
+}
+
+.main-girl-class {
+    overflow: hidden;
+    width: 100%;
+    box-sizing: border-box;
+    display: block;
+  }
+  
+  .main-girl-class .girl-img {
+    position: relative;
+    background: no-repeat;
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: 1.4s;
+  }
+  
+  .main-girl-class:hover .girl-img {
+    transform: scale(1.1);
+  }
+
+
+
+  @media(min-width:0px) and (max-width:320px) {
+    .user-section {
+        height: auto;    
+    }
+    img.girl-img1 {
+        width: 100%;
+    }
+  }
+  
+  @media(min-width:321px) and (max-width:485px) {
+    .user-section {
+        height: auto;    
+    }
+    img.girl-img1 {
+        width: 100%;
+    }
+  }
+  
+  @media(min-width:486px) and (max-width:576px) {
+    .user-section {
+        height: auto;    
+    }
+    img.girl-img1 {
+        width: 100%;
+    }
+  }
+  
+  @media(min-width:577px) and (max-width:768px) {
+    .user-section {
+        height: auto;    
+    }
+    img.girl-img1 {
+        width: 100%;
+    }
+  }
+  
+  @media(min-width:769px) and (max-width:992px) {
+     
+  }
+  
+  @media(min-width:992px) and (max-width:1200px) {
+     
+  }  
+
+
+

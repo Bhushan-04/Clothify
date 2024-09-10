@@ -1,0 +1,856 @@
+.details {
+    margin: 3% 0;
+}
+
+.details .img-tshirt {
+    width: 370px;
+    height: 370px;
+}
+
+.details .text-holder h4 {
+    font-size: 15px;
+}
+
+.details .img-measure {
+    width: 176px;
+    height: 176px;
+}
+
+.details .name-shirt {
+    font-size: 12px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+
+.select-shirt .radio-section .form-check {
+    display: flex !important;
+    padding-left: 1.5em;
+    margin-bottom: .125rem;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    height: 40px;
+    min-width: 38px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    margin: 0px !important;
+}
+
+.select-shirt .radio-section .form-check:hover {
+    display: flex !important;
+    padding-left: 1.5em;
+    margin-bottom: .125rem;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    height: 40px;
+    min-width: 40px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.select-shirt .radio-section .form-check:checked {
+    display: flex !important;
+    padding-left: 1.5em;
+    margin-bottom: .125rem;
+    border: 1px solid #000 !important;
+    border-radius: 50%;
+    height: 40px;
+    min-width: 38px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+/****************/
+.select-shirt .input-group {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.select-shirt .input-group .form-control {
+    font-size: 14px;
+    border: none;
+}
+.select-shirt .input-group .form-control:focus{
+    box-shadow: none;
+}
+
+.select-shirt .input-group .btn-check {
+    color: #000;
+    font-size: 14px;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.select-shirt .more-offer h5 {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.select-shirt .heading-off {
+    border: 1px solid #ddd;
+    padding: 15px;
+    background: #f9c6d1;
+    border-radius: 5px;
+}
+
+.select-shirt .heading-off h6 {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.select-shirt .heading-off p {
+    color: #000;
+}
+
+.addcart-btn-sec .notify-btn , .addcart-btn-sec .notify-btn:hover{
+    background-color: #fff;
+    border: 1px solid #000;
+    color: #000;
+}
+.select-shirt .not-offer-prise{
+    margin-left: 20px;
+    text-decoration: line-through;
+    margin-bottom: 0px;
+}
+
+
+/*********hover effect on size********/
+.select-shirt .hover-xxs p {
+    font-size: 14px;
+    font-weight: 500;
+    text-align: start;
+}
+
+.select-shirt .hover-xxs span {
+    font-size: 12px;
+}
+
+.select-shirt .shirt-size-div {
+    position: relative;
+}
+
+.select-shirt .shirt-size-div .hover-xxs {
+    display: none;
+}
+
+.select-shirt .shirt-size-div .hover-xxs-show:hover .hover-xxs {
+    display: block;
+    position: absolute;
+    width: 100%;
+    background-color: #FFF;
+    bottom: 60px;
+    box-shadow: 0 0px 2px rgba(0, 0, 0, .565);
+    width: fit-content;
+    left: 2%;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.product-modal .banner1-img{
+    width: 50px;
+    height: 50px;
+}
+
+/* 06-07-2023 */
+
+.select-shirt .description-class {
+    border-bottom: 1px solid #e8e8e9;
+}
+
+@media(min-width:1200px) and (max-width:1400px) {
+    .details .img-tshirt {
+        width: 317px;
+        height: 317px;
+    }
+
+    .details .img-measure {
+        width: 156px;
+        height: 156px;
+    }
+}
+
+@media(min-width:992px) and (max-width:1200px) {
+    .details .img-tshirt {
+        width: 262px;
+        height: 262px;
+    }
+    .details .img-measure {
+        width: 130px;
+        height: 130px;
+    }
+}
+
+@media(min-width:767px) and (max-width:991px) {
+    .details .img-tshirt {
+        width: 317px;
+        height: 317px;
+    }
+
+}
+
+@media(min-width:359px) and (max-width:420px) {
+    .details .img-tshirt {
+        width: 300px;
+        height: 300px;
+    }
+
+}
+
+@media(min-width:0px) and (max-width:359px) {
+    .details .img-tshirt {
+        width: 230px;
+        height: 230px;
+    }
+
+    .select-shirt .radio-section .form-check {
+        min-width: 33px;
+    }
+}
+
+@media(max-width:767px) {
+    .details .img-holder {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .details .text-holder h4 {
+        text-align: center;
+    }
+    .addcart-btn-sec .btn-success {
+        font-size: 12px !important;
+    }
+
+    .select-shirt .rupees-holder .not-offer-prise {
+        font-size: 16px  !important;
+    }
+    .select-shirt .rupees-holder h4 {
+        font-size: 16px !important;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+/* *start shirt style  */
+.select-shirt .content-holder p {
+    font-size: 12px;
+    text-align: left;
+}
+
+.select-shirt .heading-holder h4 {
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.select-shirt .heading-holder .description-class {
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 18px;
+    color: #acada7;
+    padding: 8px 0px;
+}
+
+.select-shirt .rupees-holder h4 {
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 25px;
+    color: #000;
+}
+
+.select-shirt .rupees-holder .not-offer-prise {
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 22px;
+    color: #acada7;
+}
+
+.select-shirt .rupees-holder .off-percent {
+    color: #00b852;
+}
+
+p.tax-text {
+    color: red;
+    font-size: 13px;
+    font-weight: 900;
+}
+
+.select-shirt .retails-price h5 {
+    font-size: 12px;
+}
+
+.select-shirt p {
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+.size-select h6 {
+    font-size: 12px;
+}
+
+.select-shirt .radio-section {
+    display: inline-flex;
+}
+
+.select-shirt .radio-section .form-check {
+    position: relative;
+}
+
+.select-shirt .radio-section .form-check .color-name {
+    display: none;
+}
+
+.select-shirt .radio-section .form-check:hover .color-name {
+    display: block;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    color: #000;
+    margin-bottom: 0px;
+    font-size: 10px;
+    border-radius: 0px;
+    z-index: 99999;
+    height: auto;
+    width: auto;
+    padding: 0px 5px;
+    position: absolute;
+    left: 20px;
+}
+
+.select-shirt .form-check-input:focus {
+    box-shadow: none;
+}
+
+.select-shirt .form-check-input {
+    width: 30px;
+    height: 30px;
+    background-image: none;
+    border: 1px solid transparent !important;
+}
+
+.select-shirt .form-check-input:checked {
+    width: 30px;
+    height: 30px;
+    background-image: none;
+    /* border: 1px solid #000 !important; */
+    outline: 1px solid black;
+    outline-offset: 4px;
+}
+
+
+
+.shirt-size-div .nav-item {
+    height: 45px;
+    min-width: 45px;
+    margin: 5px 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.shirt-size-div .nav-link {
+    color: #000;
+    background-color: transparent;
+    height: 45px;
+    min-width: 45px;
+    border: 1px solid #000 !important;
+    border-radius: 50px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    margin-bottom: 4px;
+}
+
+.shirt-size-div .nav-link.active {
+    color: #000;
+    background-color: transparent;
+    height: 45px;
+    min-width: 45px;
+    border: 1px solid green !important;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+}
+
+.addcart-btn-sec .btn-success {
+    font-size: 15px;
+}
+
+.select-shirt .radio1:checked[type=radio] {
+    width: 30px;
+    height: 30px;
+    background-image: none;
+    background-color: #000 !important;
+}
+
+.select-shirt .radio2:checked[type=radio] {
+    width: 30px;
+    height: 30px;
+    background-image: none;
+    background-color: #5e5e60;
+
+}
+
+.select-shirt .radio3:checked[type=radio] {
+    width: 30px;
+    height: 30px;
+    background-image: none;
+    background-color: #7c8f8a;
+}
+
+.select-shirt input#flexRadioDefault3 {
+    background-color: #7c8f8a;
+}
+
+.select-shirt .radio4:checked[type=radio] {
+    width: 30px;
+    height: 30px;
+    background-image: none;
+    background-color: #5c5c5e;
+
+}
+
+.select-shirt input#flexRadioDefault4 {
+    background-color: #5c5c5e;
+}
+
+.select-shirt .radio5:checked[type=radio] {
+    width: 30px;
+    height: 30px;
+    background-image: none;
+    background-color: #abe5d6;
+
+}
+
+.select-shirt input#flexRadioDefault5 {
+    background-color: #abe5d6;
+}
+
+.select-shirt .radio6:checked[type=radio] {
+    width: 30px;
+    height: 30px;
+    background-image: none;
+    background-color: #0c88e4;
+
+}
+
+.select-shirt input#flexRadioDefault6 {
+    background-color: #0c88e4;
+}
+
+.select-shirt .radio7:checked[type=radio] {
+    width: 30px;
+    height: 30px;
+    background-image: none;
+    background-color: #293c51;
+
+}
+
+.select-shirt input#flexRadioDefault7 {
+    background-color: #293c51;
+}
+
+.select-shirt .radio8:checked[type=radio] {
+    width: 30px;
+    height: 30px;
+    background-image: none;
+    background-color: #667b92;
+
+}
+
+.select-shirt input#flexRadioDefault8 {
+    background-color: #667b92;
+}
+
+.select-shirt .radio9:checked[type=radio] {
+    width: 30px;
+    height: 30px;
+    background-image: none;
+    background-color: #c6dbf2;
+
+}
+
+.select-shirt input#flexRadioDefault9 {
+    background-color: #c6dbf2;
+}
+
+.select-shirt .radio10:checked[type=radio] {
+    width: 30px;
+    height: 30px;
+    background-image: none;
+    background-color: #9e5066;
+
+}
+
+.select-shirt input#flexRadioDefault10 {
+    background-color: #9e5066;
+}
+
+.select-shirt .radio11:checked[type=radio] {
+    width: 30px;
+    height: 30px;
+    background-image: none;
+    background-color: #e5b8b3;
+
+}
+
+.select-shirt input#flexRadioDefault11 {
+    background-color: #e5b8b3;
+}
+
+.select-shirt .radio12:checked[type=radio] {
+    width: 30px;
+    height: 30px;
+    background-image: none;
+    background-color: #eee1ea;
+
+}
+
+.select-shirt input#flexRadioDefault12 {
+    background-color: #eee1ea;
+}
+
+.select-shirt .radio13:checked[type=radio] {
+    width: 30px;
+    height: 30px;
+    background-image: none;
+    background-color: #bfb3d5;
+
+}
+
+.select-shirt input#flexRadioDefault13 {
+    background-color: #bfb3d5;
+}
+
+.select-shirt .radio14:checked[type=radio] {
+    width: 30px;
+    height: 30px;
+    background-image: none;
+    background-color: #b6784d;
+
+}
+
+.select-shirt input#flexRadioDefault14 {
+    background-color: #b6784d;
+}
+
+.select-shirt .radio15:checked[type=radio] {
+    width: 30px;
+    height: 30px;
+    background-image: none;
+    background-color: #bfa897;
+
+}
+
+.select-shirt input#flexRadioDefault15 {
+    background-color: #bfa897;
+}
+
+.select-shirt .radio16:checked[type=radio] {
+    width: 30px;
+    height: 30px;
+    background-image: none;
+    background-color: #d5d4d9;
+
+}
+
+.select-shirt input#flexRadioDefault16 {
+    background-color: #d5d4d9;
+}
+
+.select-shirt .radio17:checked[type=radio] {
+    width: 30px;
+    height: 30px;
+    background-image: none;
+    background-color: #6f5965;
+
+}
+
+.select-shirt input#flexRadioDefault17 {
+    background-color: #6f5965;
+}
+
+.select-shirt input#flexRadioDefault1 {
+    background-color: #000;
+}
+
+.select-shirt input#flexRadioDefault2 {
+    background-color: #5e5e60;
+}
+
+.select-shirt .btn-size {
+    border: 0.5px solid #dddddd;
+    font-size: 14px;
+    border-radius: 50%;
+    text-align: center;
+    min-width: 40px;
+    padding: 8px 10px;
+    cursor: pointer;
+}
+
+.select-shirt .btn-size:hover {
+    border: 0.5px solid #dddddd;
+    font-size: 14px;
+    border-radius: 50%;
+}
+
+.select-shirt .btn-size:active {
+    border: 0.5px solid #000;
+}
+
+.select-shirt .select-product-div .add-cart-box .add {
+    /* background-color: #fff; */
+    border-left: 1px solid #ccc;
+    padding: 0px 9px;
+    font-size: 17px;
+    border-radius: 5px;
+}
+
+.select-shirt .select-product-div .add-cart-box .add:hover {
+    color: #000;
+}
+
+.select-shirt .select-product-div .add-cart-box {
+    border: 1px solid #707070;
+    border-radius: 5px;
+    width: fit-content;
+    margin-top: 10px;
+    background-color: #fff;
+}
+
+.select-shirt .select-product-div .add-cart-btn {
+    font-size: 14px;
+    background-color: #000;
+    color: white;
+    margin-top: 7px;
+    padding: 7px 25px;
+}
+
+.select-shirt .select-product-div .add-cart-box .minus {
+    /* background-color: #fff;/ */
+    border-right: 1px solid #707070;
+    padding: 3px 10px;
+    font-size: 17px;
+    border-radius: 5px;
+}
+
+.select-shirt .select-product-div .add-cart-box .minus:hover {
+    color: #000;
+}
+
+.select-shirt .select-product-div .add-cart-box .quantity {
+    /* background-color: ; */
+    padding: 3px 15px;
+    font-size: 17px;
+    color: #000;
+}
+
+.select-shirt .select-product-div .pro-name {
+    font-size: 15px;
+}
+
+.select-shirt .btn-find {
+    border-color: rgb(221, 221, 221);
+    background-color: white;
+    font-size: 14px;
+    border-radius: 0%;
+}
+
+.select-shirt .btn-find:hover {
+    border-color: rgb(221, 221, 221);
+    background-color: white;
+}
+
+.select-shirt .bg-clr {
+    background-color: #5b5d52;
+    color: #FFF;
+    text-align: center;
+    font-size: 14px;
+}
+
+.select-shirt .organic-img {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    margin-top: 10px;
+
+
+}
+
+.select-shirt .image-holder {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.select-shirt .accordion-button:not(.collapsed) {
+    color: #000;
+    background-color: transparent;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    border-radius: 0%;
+    box-shadow: none;
+    font-size: 14px;
+
+}
+
+.select-shirt .accordion-button {
+    font-size: 14px;
+}
+
+.select-shirt .accordion {
+    border: none;
+}
+
+.select-shirt .accordion-item {
+    border-left-width: 0px !important;
+    border-right-width: 0px !important;
+    border-left-color: none !important;
+    border-right-color: none !important;
+}
+
+.select-shirt .accordion-body li {
+    font-size: 14px;
+}
+
+.select-shirt .accordion-body h6 {
+    font-size: 14px;
+}
+
+.select-shirt .accordion-body h5 {
+    font-size: 14px;
+    text-align: end;
+    text-decoration: underline;
+}
+
+.select-shirt .accordion-body p {
+    font-size: 12px;
+    text-align: start;
+}
+
+/*******modal start**********/
+.select-shirt .modal .word-img {
+    width: 20px;
+    height: 20px;
+}
+
+.select-shirt .modal .modal-title {
+    font-size: 12px !important;
+    margin: auto;
+}
+
+.select-shirt .modal .modal-content .text-holder h5 {
+    font-size: 15px;
+    text-align: center;
+}
+
+.select-shirt .modal .modal-content .text-holder span {
+    text-decoration: underline;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.select-shirt .modal .modal-content .modal-body .form-label {
+    font-size: 12px;
+}
+
+.select-shirt .modal .modal-content .modal-body .form-control {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #ced4da;
+    font-size: 10px;
+    border-radius: 0%;
+
+}
+
+.select-shirt .modal .modal-content .modal-body .form-control:focus {
+    box-shadow: none;
+    border-radius: 0%;
+
+}
+
+.select-shirt .modal .modal-content .modal-body .btn-Countinue {
+    border-radius: 25%;
+    font-size: 12px;
+    border: 1px solid #ced4da;
+    height: 40px;
+
+}
+
+.select-shirt .modal .modal-content .modal-body .privacy {
+    text-align: center;
+    font-size: 12px;
+    text-decoration: underline;
+}
+
+.select-shirt .modal .modal-content .modal-body .switch {
+    /* width: 100%; */
+    height: 50%;
+
+}
+
+.select-shirt .modal .modal-content .modal-body .form-switch .form-check-input:checked {
+    background-color: #000;
+    border: none;
+}
+
+/* notify modal */
+
+.notify-modal .modal .modal-body .size-btn {
+    border-color: #00b852;
+    border-radius: 50px;
+}
+
+.notify-modal .modal .modal-body .submit-button {
+    background-color: #198754;
+    color: #FFF;
+    border-radius: 5px;
+}
+
+.notify-modal .modal .modal-title {
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.notify-modal .modal .modal-body .nav .nav-link.active {
+    color: #000;
+    border-radius: 50px;
+    border: 1px solid #00b852;
+}   
+
+.notify-modal .modal .modal-body .nav .nav-link{
+    color: #000;
+    border-radius: 50px;
+    border: 1px solid #000;
+}   
+
+/* Magnify */
+
+
+ .largeImage {
+    z-index: 99999999;
+ }
+
+ .img-holder div:hover{
+    z-index: 9999999 !important;
+    /* position: absolute !important;
+    right: 0px !important;
+    height: 100% !important;
+    width: 100 !important; */
+ }

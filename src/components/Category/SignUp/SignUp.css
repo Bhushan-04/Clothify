@@ -1,0 +1,128 @@
+section.SignUp {
+    padding: 2rem;
+    max-width: 100vw;
+    background: #d3e9d5;
+}
+.SignUp .form-field {
+    width: 100%;
+    padding-bottom: 34px;
+    height: 100%;
+    margin: 0 auto;
+    background-color: white;
+    transition: 0.5s;
+}
+.SignUp .dob {
+    width: 100%;
+    margin-left: 28%;
+    height: 42px;
+    margin: 25%;
+    margin-top: 20px;
+    border: 1px solid #d3d3d3;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+.SignUp .submit input[type="submit"] {
+    color: white;
+    width: 24%;
+    height: 40px;
+    background-color: #00800094;
+    border: none;
+}
+.SignUp .signup {
+   height: 100%;
+   width: 100%;
+}
+.SignUp .signup-img {
+    height: 100%;
+}
+.SignUp .input-main.mob {
+    position: relative;
+}
+.SignUp .send button.btn.send {
+    font-size: 13px;
+    color: white;
+    width: 100%;
+    height: 27px;
+    background-color: #00800094;
+    border: none;
+}
+.SignUp .accordion-button:not(.collapsed)::after {
+    background-image: none !important;
+    transform: none !important;
+}
+.SignUp .accordion-button::after {
+   
+    background-image: none !important;
+    background-repeat: no-repeat;
+  
+}
+.SignUp .accordion-button {
+    font-size: 14px;    
+    color: #fff;
+    background-color: #00800094;
+    box-shadow: none;
+    padding: 2px 0px 2px 20px;
+    width: 110px;
+}
+.SignUp button .accordion-item{
+    text-align: center;
+}
+.SignUp button .accordion-button.collapsed {
+    font-size: 14px;    
+    color: #fff;
+    background-color: #00800094;
+    box-shadow: none;
+}
+
+.SignUp .accordion-body .digit-group{
+    margin-left: 50px;
+}
+
+.SignUp .accordion-body input#digit-1 {
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid black;
+    width: 8%;
+    border-top: none;
+}
+.SignUp .accordion-body input#digit-2 {
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid black;
+    width: 8%;
+    border-top: none;
+}
+.SignUp .accordion-body input#digit-3 {
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid black;
+    width: 8%;
+    border-top: none;
+}
+.SignUp .accordion-body input#digit-4 {
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid black;
+    width: 8%;
+    border-top: none;
+}
+.SignUp .accordion-body .set-time{
+    margin:5px 10px 0px 10px;
+}
+.SignUp .accordion-body .verified-btn{
+    padding: 5px;
+    border:1px solid #ccc;
+    font-size: 13px;
+    color: #000;
+}
+
+@media (min-width:280px) and (max-width:1024px) {
+    .SignUp .signup {
+   display: none;
+    }
+}
+@media (min-width:280px) and (max-width:400px) {
+}

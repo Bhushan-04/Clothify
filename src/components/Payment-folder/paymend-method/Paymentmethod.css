@@ -1,0 +1,63 @@
+.cart-section   .nav-pills{
+    /* width: 100%; */
+}
+.cart-section   .nav-pills .nav-link{
+    font-size: 12px !important;
+    color: #000 !important;
+   background-color: #f4f4f5 !important;
+   font-weight: 600 !important;
+   height: 60px;
+    border-radius: 0%;
+   border-bottom: 1px solid #ddd;
+}
+.cart-section  .nav-pills .nav-link.active{
+    background-color: #FFF !important;
+   color: green !important;
+    border-left:5px solid green !important;
+    height: 50px;
+}
+.cart-section  .paymemt .tab-pane .text-holder h3{
+    font-size: 12px;
+}
+.cart-section  .paymemt .tab-pane .form-check{
+    cursor: pointer;
+}
+.cart-section  .paymemt .tab-pane .form-check-label{
+    font-size: 12px;
+}
+.cart-section  .paymemt .tab-pane .img-pay{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #ddd;
+}
+.cart-section  .paymemt .tab-pane .free-rs{
+    margin-left: auto;
+}
+/********price-details start*********/
+.cart-section  .seclect-product h4{
+    font-size: 12px;
+}
+.cart-section  .seclect-product .total h4{
+    font-size: 12px
+}
+.cart-section  .seclect-product .total span{
+    font-size: 11px;
+    color: green;
+}
+.cart-section  .seclect-product .calculate-total  h4{
+    font-size: 12px;
+    text-align: center;
+    
+}
+.cart-section .seclect-product .total h5 {
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.cart-section .seclect-product .calculate-total h5 {
+    font-size: 13px;
+    font-weight: 700;
+    color: #00001f;
+    text-align: center;
+}

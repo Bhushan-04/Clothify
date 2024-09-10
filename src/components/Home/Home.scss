@@ -1,0 +1,45 @@
+@import "../../css-config/mixins.scss";
+.main-content {
+    .layout {
+        max-width: calc(100% - 20px);
+        margin: 0 auto;
+        @include md {
+            max-width: 95%;
+        }
+    }
+}
+
+
+// .modal-backdrop.show {
+//     opacity: 0 !important;
+// }
+
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+    position: absolute;
+    left: auto;
+    width: fit-content;
+    border-radius: 0;
+    box-shadow: inset -4px -8px 19px #cccccc80;
+    font-size: 16px;
+    text-transform: uppercase;
+    background: #ffffff80;
+    -webkit-backdrop-filter: blur(6px);
+    backdrop-filter: blur(6px);
+    top: 62px;
+    border-top: 3px solid rgba(10, 108, 10, 0.876);
+   
+}    
+   
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.navbar-expand-lg {
+    padding: 0 !important;
+}
+
+.dropdown-item:focus, .dropdown-item:hover {
+    background-color: #15761590 !important;
+    padding-left: 18px;
+    color: #ffffff !important;
+}

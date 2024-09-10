@@ -1,0 +1,70 @@
+.modal-product .modal-content {
+    position: absolute;
+    overflow-y: scroll;
+    cursor: all-scroll;
+    cursor: -webkit-image-set(url("../../../assets/topdownicon.png") 2x),ns-resize;
+}
+.thumbnail-small {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 30px;
+    z-index: 1;
+    .thumbnail-button {
+        outline: 0;
+        margin-bottom: 5px;
+        border: 0;
+        padding: 0;
+        background-color: transparent;
+      }
+      .imageZoom {
+        border: 1px solid #d5d6d9;
+        width: 30px;
+        height: 40px;
+      }
+    }
+.custom-swiper-button-prev {
+    padding: 10px 17px 8px 16px;
+    position: absolute;
+    top: 45%;
+    left: 10px;
+    z-index: 1;
+    border-radius: 20px;
+    background-color: '#ffffff';
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+}
+.custom-swiper-button-next {
+    padding: 10px 17px 8px;
+    position: absolute;
+    top: 45%;
+    right: 10px;
+    z-index: 1;
+    border-radius: 20px;
+    background-color: '#ffffff';
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+}
+.swiper-slide {
+    overflow: hidden;
+  }
+.modal-close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 10px 10px 7px;
+    z-index: 1;
+    border-radius: 20px;
+    background-color: '#ffffff';
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+}

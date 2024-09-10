@@ -1,0 +1,78 @@
+.Featured-Category {
+    position: relative;
+    width:100%;
+    padding: 50px 0px;
+}
+.Featured-Category .featured-card .feature-parent{
+    position: relative;
+    width: 100%;
+}
+
+
+
+.Featured-Category .featured-card .feature-parent .bd-bot{
+    border-bottom: 5px solid #ccc;
+    margin: 0px 2px;
+    width: 25% !important;
+    height: 410px;
+    flex-grow: 1;
+}
+
+.Featured-Category .featured-card .feature-parent .bd-bot:hover{
+    border-bottom: 5px solid #959595;   
+    height: 410px;
+}
+
+.Featured-Category .featured-card .feature-parent .model-img{
+    width: 400px;
+    height: 400px;
+    opacity: 1;
+}
+
+.Featured-Category .featured-card .feature-parent .div-2 .model-img{
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.Featured-Category .featured-card .feature-parent .div-2:hover .model-img{
+    opacity: 1;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.Featured-Category .featured-card .feature-parent .div-3 .model-img{
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.Featured-Category .featured-card .feature-parent .div-3:hover .model-img{
+    opacity: 1;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.Featured-Category .featured-card .feature-parent .div-4 .model-img{
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.Featured-Category .featured-card .feature-parent .div-:hover .model-img{
+    opacity: 1;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+
+
+
+
+

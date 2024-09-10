@@ -1,0 +1,102 @@
+.filter_drawer {
+    background-color: rgb(240, 240, 240) !important;
+    max-height: 911px;
+    position: fixed;
+    // position:relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    left: auto;
+    // visibility: hidden;
+    height: 100vh;
+    z-index: 20;
+    transition: transform .5s var(0.25),
+    visibility .5s var(0.25);
+    box-shadow: none;
+    touch-action: manipulation;
+    width: 400px;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    .header{
+        background-color: rgb(240, 240, 240);
+        justify-content: center;
+        text-align: center;
+        padding: 30px;
+        padding-bottom: 15px;
+        border-bottom: #e2e2e2 solid 1px;
+    }
+    .closebtn {
+        position: absolute; 
+        margin-left: 0;
+        right: 30px;
+        left: auto;
+        top: calc(5% - 7px); 
+        line-height: 0;
+        background-color: rgb(240, 240, 240);
+        cursor: pointer;
+    }
+    .filter_contents{
+        .colorscontain{
+            .subheader{
+                padding: 20px 0 10px 30px;
+            }
+            .ColorsDiv {
+                .colorList{
+                    .LitsItems{
+                        list-style: none;
+                        display: inline-block;
+                        margin: 6px 8px;
+                        .rounded_color{
+                            position: relative;
+                            display: inline-block;
+                            height: 30px;
+                            width: 30px;
+                            vertical-align: top;
+                            cursor: pointer;
+                            background-size: cover;
+                            border-radius: 50%;
+                        }
+                    }
+                }
+            }
+            .FabricDiv {
+                margin: 6px 38px;
+                .fabricCheck {
+                    padding-bottom: 10px;
+                }
+            }
+        }
+    }
+    .bottomDiv {
+    opacity: 1;
+    transform: translateY(0);
+    transition: opacity .25s cubic-bezier(.25,.46,.45,.94) .45s,
+    transform 5s cubic-bezier(.25,.46,.45,.94) .45s;
+    box-shadow: 0 -1px rgba(var(#e2e2e2),.6);
+    bottom: 0px !important;
+    padding: 20px;
+    position: fixed;
+    right: 0px;
+    width: calc(100vw - 65px);
+    width: 400px;
+        .bottomBtn{
+            background-color: gray;
+            color: white;
+            padding: 15px;
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            text-decoration: none;
+            &:hover{
+            background-color: rgb(240, 240, 240);
+            border: gray solid 1px;
+            color: black;
+            }
+        }
+    }
+}
+.filter_drawer[aria-hidden=false] {
+    visibility: visible;
+    transform: translate(0);
+}
